@@ -1,8 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
+package medium
 
 type ListNode struct {
 	Val  int
@@ -76,7 +72,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	return numbers
 }
 
-func main() {
+/*func main() {
 	result1 := addTwoNumbers(&ListNode{
 		Val: 9,
 		Next: &ListNode{
@@ -141,4 +137,4 @@ func main() {
 	}
 
 	fmt.Println(result2.Val)
-}
+}*/

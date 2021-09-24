@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  app:
+    image: golang
+    tty: true
+    container_name: scrocrix-leetcode
+    working_dir: /etc/local/leetcode
+    volumes:
+      - .:/etc/local/leetcode

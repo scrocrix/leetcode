@@ -1,4 +1,4 @@
-package main
+package medium
 
 import (
 	"bytes"
@@ -53,9 +53,9 @@ func leastInterval(tasks []byte, unitOfTime int) int {
 	return len(intervals)
 }
 
-func main() {
+/*func main() {
 	//fmt.Println(leastInterval([]byte(`A A A B B B`), 0))
 	fmt.Println(leastInterval([]byte(`A A A B B B`), 2))
 	//fmt.Println(leastInterval([]byte(`A A A A A A B C D E F G`), 2))
 	//fmt.Println(leastInterval([]byte(`A B C D E F G`), 2))
-}
+}*/
