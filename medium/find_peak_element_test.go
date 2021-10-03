@@ -3,7 +3,7 @@ package medium_test
 import (
 	"testing"
 
-	"github.com/scrocrix/leetcode/problems/medium"
+	"github.com/scrocrix/leetcode/medium"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )
