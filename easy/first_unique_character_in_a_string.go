@@ -1,10 +1,6 @@
 package easy
 
-import (
-	"fmt"
-)
-
-func firstUniqChar(s string) int {
+func FirstUniqChar(s string) int {
 	visited := map[string]int{}
 
 	for _, v := range s {
@@ -25,10 +21,4 @@ func firstUniqChar(s string) int {
 	}
 
 	return -1
-}
-
-func main() {
-	fmt.Println(firstUniqChar("leetcode"))
-	fmt.Println(firstUniqChar("loveleetcode"))
-	fmt.Println(firstUniqChar("aabb"))
 }
