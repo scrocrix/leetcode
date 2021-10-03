@@ -2,7 +2,7 @@ package easy
 
 import "sort"
 
-func twoSum(nums []int, target int) []int {
+func TwoSum(nums []int, target int) []int {
 	var o []int
 	o = append(o, nums...)
 	sort.Slice(nums, func(i, j int) bool {
