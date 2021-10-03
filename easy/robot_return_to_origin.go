@@ -1,7 +1,6 @@
 package easy
 
-func judgeCircle(moves string) bool {
-	// (x,y)
+func JudgeCircle(moves string) bool {
 	pos := [2]int{0, 0}
 	for _, move := range moves {
 		if string(move) == "U" {
